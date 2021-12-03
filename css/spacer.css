@@ -1,0 +1,11 @@
+.sapacer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer{
+    margin: 100px auto 80px;
+    width: 90%;
+    size: 10;
+}

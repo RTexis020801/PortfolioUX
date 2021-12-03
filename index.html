@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Texis portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <div class="header__logo">
+                    <img src="./img/Design - Logo (1).png" width="100px" height="auto" alt="logo">
+                </div>
+                <div class="header__menubar">
+                    <ul>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">About Me</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Social</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="AboutMe">
+                <div class="AboutMe__photo">
+                    <img src="img/Design - Logo (1).png"  alt="photo of me">
+                </div>
+                <div class="AboutMe__description">
+                    <h1>
+                        <span>Hi!</span>
+                        <br>
+                        <span>I'm Roberto Texis</span>
+                    </h1>
+                    <p>Fullstack developer, believer in technologies for the common good.</p>
+                </div>
+            </div>
+
+            <div class="spacer-container">
+                <hr class="spacer">
+            </div>
+
+            <div class="Projects_title">
+                <p>Projects I've made</p>
+            </div>
+
+
+            <div class="Projects">
+
+
+                <div class="Proyecto">
+                    <div class="Proyecto_titulo">
+                        <p>El Floredo app</p>
+                    </div>
+                    <a href="./pdf/Case study El Floredo Grocery app.pdf" target="_blank">
+
+                        <img class="Proyecto_imagen" src="./img/Logotipo-01.png" alt="" width="30%">
+                    </a>
+                </div>
+
+                <div class="Proyecto">
+                    <div class="Proyecto_titulo">
+                        <p>Logistic Website</p>
+                    </div>
+                    <a href="./pdf/Case study _Truck Trailer_ logistic website.pdf" target="_blank">
+                        <img class="Proyecto_imagen" src="./img/pngtree-tow-truck-trailer-logo-png-image_5143263.jpg" alt="" width="30%">
+                    </a>
+                    
+                </div>
+
+                <div class="Proyecto">
+                    <div class="Proyecto_titulo">
+                        <p>Fundacion Creciendo Juntos</p>
+                    </div>
+                    <a href="./pdf/Case Study - Drug prevention Project.pdf" target="_blank">
+
+                        <img class="Proyecto_imagen" src="./img/Logo poryecto 3.png" alt="" width="30%"> 
+                    </a>
+                </div>
+                
+            </div>
+            <div class="Contact">
+
+            </div>
+        </main>
+
+        <form class="form" action="" method="POST">
+            <h2 class="title">Hablemos</h2>
+            <p>
+                Si está interesado en trabajar conmigo en su próximo proyecto, 
+no dude en ponerse en contacto conmigo.
+            </p>
+            <label for="form-name">
+                Nombre completo
+                <input required name="name" id="form-name" type="text" placeholder="user">
+            </label>
+            <label for="email">
+                Correo electronico
+                <input required name="email" id="email" type="email" placeholder="example@email.com">
+            </label>
+            <label for="form-message">
+                Mensaje
+                <textarea requiered name="message" id="form-message" cols="30" rows="7"></textarea>
+            </label>
+            <button class="button" type="submit">Enviar mensaje</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

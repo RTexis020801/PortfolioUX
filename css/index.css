@@ -1,0 +1,24 @@
+@import './wrapper.css';
+@import './header.css';
+@import './main.css';
+@import './spacer.css';
+@import './form.css';
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --fontSecundary: 'Oxygen', sans-serif;
+    --headline1: bold 3.125rem/9.61rem var(--fontBase);
+    --headline2: bold 3.687rem/5.94rem var(--fontBase);
+    --headline3: bold 3rem/4.88rem var(--fontBase);
+    --headline4: bold 2.125rem/3.44rem var(--fontBase);
+    --headline5: bold 1.5rem/2.44rem var(--fontBase);
+    --body1: 1rem/1.56rem var(--fontBase);
+    --body2: 0.875rem/1.42rem var(--fontBase);
+    --button: bold 14px/22px var(--fontBase);
+    --caption: 12px/19px var(--fontBase);
+    --comment1: 300 34px/55px var(--fontSecundary);
+    --comment2: 900 34px/55px var(--fontSecundary);
+}
+
+body{
+    background-color: #eee;
+}

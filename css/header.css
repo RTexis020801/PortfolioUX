@@ -1,0 +1,34 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header__logo{
+    border-radius: 40%;
+    border: 2px solid black;
+}
+
+.header__menubar{
+    border-radius: 16px;
+    
+}
+
+.header__menubar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 36px;
+    padding: 0;
+    z-index: 100;
+}
+
+.header__menubar ul li a{
+    font: var(--button);
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: 0 30px;
+}
